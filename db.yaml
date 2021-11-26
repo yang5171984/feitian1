@@ -1,0 +1,4 @@
+mysql_host: 'database-1.cuqbpngbomxl.us-east-2.rds.amazonaws.com'
+mysql_user: 'admin'
+mysql_password: 'killccp720'
+mysql_db: 'feitian'
