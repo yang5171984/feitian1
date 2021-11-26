@@ -21,7 +21,7 @@
 
 7. add/modify db.yaml file accordingly
 
-8. create accounts table in aws mysql database
+8. create accounts table in aws mysql database \
 ```CREATE TABLE `feitian`.`accounts` ( `id` INT NOT NULL AUTO_INCREMENT, `fullname` VARCHAR(255) NULL, `username` VARCHAR(255) NULL, `password` VARCHAR(255) NULL, `email` VARCHAR(255) NULL, PRIMARY KEY (`id`));```
 
 9. run the app \
