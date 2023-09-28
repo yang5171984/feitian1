@@ -22,9 +22,9 @@
 7. add/modify db.yaml file accordingly
 
 8. create accounts table in aws mysql database \
-```create database feitian;```
-```CREATE TABLE `feitian`.`accounts` ( `id` INT NOT NULL AUTO_INCREMENT, `fullname` VARCHAR(255) NULL, `username` VARCHAR(255) NULL, `password` VARCHAR(255) NULL, `email` VARCHAR(255) NULL, PRIMARY KEY (`id`));```
-```CREATE TABLE `feitian`.`users` ( `id` INT NOT NULL AUTO_INCREMENT, `name` VARCHAR(255) NULL,  `email` VARCHAR(255) NULL, PRIMARY KEY (`id`));```
+```create database feitian;``` \
+```CREATE TABLE `feitian`.`accounts` ( `id` INT NOT NULL AUTO_INCREMENT, `fullname` VARCHAR(255) NULL, `username` VARCHAR(255) NULL, `password` VARCHAR(255) NULL, `email` VARCHAR(255) NULL, PRIMARY KEY (`id`));``` \
+```CREATE TABLE `feitian`.`users` ( `id` INT NOT NULL AUTO_INCREMENT, `name` VARCHAR(255) NULL,  `email` VARCHAR(255) NULL, PRIMARY KEY (`id`));``` \
 
 9. run the app \
 ```python app.py```
